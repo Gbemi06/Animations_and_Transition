@@ -1,8 +1,27 @@
 .fade-in-image {
-    animation: fadeIn linear 10s;
+    animation: fadeIn 5s 2s both;
 }
 
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
+  }
+
+  .prime-badge{
+      position: absolute;
+      top: 0rem;
+      left: 0rem;
+  }
+
+  a[href^="https"] {
+    color: green;
+  }
+
+  a[href^="http://"] {
+    color: red;
+  }
+
+  a[href$=".png"] {
+    color: black;
+    text-decoration: underline;
   }
